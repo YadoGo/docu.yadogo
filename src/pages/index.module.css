@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 10vh 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -20,4 +20,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.pattron {
+  opacity: 0.1;
+  background-image: url('https://cdn.dribbble.com/users/2168896/screenshots/15556098/media/2cc863ce20f21bea3905221f0b0b71b7.png?resize=400x0');
+  height: 33rem;
+  background-repeat: repeat;
+
 }

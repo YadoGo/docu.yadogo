@@ -41,8 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://yadogo.github.io/yadogo-docu/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,8 +68,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/front', label: 'Frontend', position: 'left'},
-          {to: '/back', label: 'Backend', position: 'left'},
           {
             href: 'https://github.com/YadoGo',
             label: 'GitHub',
