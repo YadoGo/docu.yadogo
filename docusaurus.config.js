@@ -18,11 +18,14 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'YadoGo', // Usually your GitHub org/user name.
-  projectName: 'YadoGo', // Usually your repo name.
+  organizationName: 'yadogo', // Usually your GitHub org/user name.
+  projectName: 'yadogo-docu', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
